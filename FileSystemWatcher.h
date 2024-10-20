@@ -1,5 +1,5 @@
 ﻿#pragma once
-#include "Win32Common/Handle.h"
+#include "Common/Handle.hh"
 #include <functional>
 #include <string>
 #include <vector>
@@ -27,7 +27,7 @@ public:
     };
 
 private:
-    Win32::Handle handle;
+    Win32::Handle<> handle;
     std::vector<uint8_t> buffer;
 
 public:

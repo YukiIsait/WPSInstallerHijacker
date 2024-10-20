@@ -21,19 +21,31 @@
     <ClCompile Include="FileSystemWatcher.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Win32Common\Exception.cc">
+    <ClCompile Include="Common\Exception.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Win32Common\Handle.cc">
+    <ClCompile Include="Common\FileUtil.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Win32Common\PathUtil.cc">
+    <ClCompile Include="Common\Handle.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Win32Common\ProcessUtil.cc">
+    <ClCompile Include="Common\JunctionPointUtil.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Win32Common\FileUtil.cc">
+    <ClCompile Include="Common\MessageBox.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\PathUtil.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\ProcessUtil.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Profile.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\ProfileUtil.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -41,19 +53,31 @@
     <ClInclude Include="FileSystemWatcher.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Win32Common\Exception.h">
+    <ClInclude Include="Common\Exception.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Win32Common\Handle.h">
+    <ClInclude Include="Common\FileUtil.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Win32Common\PathUtil.h">
+    <ClInclude Include="Common\Handle.hh">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Win32Common\ProcessUtil.h">
+    <ClInclude Include="Common\JunctionPointUtil.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Win32Common\FileUtil.h">
+    <ClInclude Include="Common\MessageBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\PathUtil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\ProcessUtil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Profile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\StringUtil.hh">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
