@@ -19,7 +19,7 @@ int main() {
         FileSystemWatcher watcher(wpsTempPath, 0x10000);
         puts("Waiting for WPS installer to run...");
         watcher.Watch(true, FileSystemWatcher::Change::LastWrite, [&wpsTempPath, &sourceProductPath](FileSystemWatcher::Action action, const std::wstring& fileName) -> bool {
-            if (action == FileSystemWatcher::Action::Modified && fileName.rfind(L"product.dat") != -1) {
+            if (action == FileSystemWatcher::Action::Modified && fileName.rfind(L"product.dat") != std::wstring::npos) {
                 Win32::FileUtil::CopyFile(sourceProductPath, Win32::PathUtil::Combine(wpsTempPath, fileName), false);
                 return false;
             }
